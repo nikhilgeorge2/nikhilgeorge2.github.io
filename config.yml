@@ -1,6 +1,12 @@
 baseURL: "https://ngeorge.net"
 title: "Nikhil George"
 theme: PaperMod
+
+# URL settings (Correct placement)
+uglyURLs: false
+canonifyURLs: true
+relativeURLs: false
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 publishDir: "docs"
@@ -54,7 +60,7 @@ params:
     enabled: true
     title: "Nikhil George"
     subtitle: "PhD Candidate (ABD) in Information Systems at Carnegie Mellon University's Heinz College. I harness big data and AI models to explore how technological change reshapes labor markets, skills, and organizations. Through innovative measurement approaches, I study worker mobility, skill transitions, and organizational transformation in our evolving digital economy. I am on the academic job market - find my CV and contact information below."
-    imageUrl: "/images/profile.webp" 
+    imageUrl: "/images/profile.webp"
     imageWidth: 200
     imageHeight: 200
     buttons:
@@ -67,7 +73,7 @@ params:
 
   socialIcons:
     - name: cv
-      url: "/cv/nikhil-george-cv.pdf"  # Corrected path
+      url: "/cv/nikhil-george-cv.pdf"
     - name: github
       url: "https://github.com/nikhilgeorge2"
     - name: google-scholar
