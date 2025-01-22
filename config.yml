@@ -48,15 +48,15 @@ params:
   math: true
 
   footer:
-    content: "© 2024 Nikhil George · Built using Hugo and PaperMod, inspired by Pascal Michaillat's academic template"
+    content: "© 2024 Nikhil George · Built with Hugo and Pascal Michaillat's Minimalist Academic Template"
 
   profileMode:
     enabled: true
     title: "Nikhil George"
     subtitle: "PhD Candidate (ABD) in Information Systems at Carnegie Mellon University's Heinz College. I harness big data and AI models to explore how technological change reshapes labor markets, skills, and organizations. Through innovative measurement approaches, I study worker mobility, skill transitions, and organizational transformation in our evolving digital economy. I am on the academic job market - find my CV and contact information below."
-    imageUrl: "/nikhil-george-photo.png"
-    imageWidth: 160
-    imageHeight: 160
+    imageUrl: "/images/profile.webp" 
+    imageWidth: 200
+    imageHeight: 200
     buttons:
       - name: Research
         url: /research/
@@ -67,7 +67,7 @@ params:
 
   socialIcons:
     - name: cv
-      url: /nikhil-george-cv.pdf
+      url: "/cv/nikhil-george-cv.pdf"  # Corrected path
     - name: github
       url: "https://github.com/nikhilgeorge2"
     - name: google-scholar
@@ -80,7 +80,7 @@ params:
   assets:
     disableScrollBarStyle: true
     css: ["css/extended/academic.css"]
-    favicon: "/nikhil-george-photo.png"
+    favicon: "/images/favicon.png"
     katex: true
 
   customFont:
@@ -94,7 +94,7 @@ markup:
       unsafe: false
   highlight:
     guessSyntax: true
-    style: xcode
+    style: github
   tableOfContents:
     endLevel: 2
     ordered: false

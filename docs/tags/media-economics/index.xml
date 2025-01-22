@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Media Economics on Nikhil George</title><link>https://ngeorge.net/tags/media-economics/</link><description>Recent content in Media Economics on Nikhil George</description><generator>Hugo -- 0.140.2</generator><language>en</language><lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ngeorge.net/tags/media-economics/index.xml" rel="self" type="application/rss+xml"/><item><title>When TV Becomes a Stream: Content Decisions of a Video On Demand Service</title><link>https://ngeorge.net/tv-streaming/</link><pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate><guid>https://ngeorge.net/tv-streaming/</guid><description>This paper examines how the on-demand feature affects content strategy and quality investment in streaming platforms compared to traditional TV.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Media Economics on Nikhil George</title>
+    <link>http://localhost:1313/tags/media-economics/</link>
+    <description>Recent content in Media Economics on Nikhil George</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/media-economics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When TV Becomes a Stream: Content Decisions of a Video On Demand Service</title>
+      <link>http://localhost:1313/tv-streaming/</link>
+      <pubDate>Fri, 29 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tv-streaming/</guid>
+      <description>This paper examines how the on-demand feature affects content strategy and quality investment in streaming platforms compared to traditional TV.</description>
+    </item>
+  </channel>
+</rss>
