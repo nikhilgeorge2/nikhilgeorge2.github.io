@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Occupational Mobility on Nikhil George</title>
+    <link>http://localhost:1313/tags/occupational-mobility/</link>
+    <description>Recent content in Occupational Mobility on Nikhil George</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/occupational-mobility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technology Change and Worker Transitions: Understanding Mobility through Occupational Skill Space</title>
+      <link>http://localhost:1313/tech-mobility/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech-mobility/</guid>
+      <description>This paper introduces a novel approach to understanding worker mobility through occupation-specific skill embeddings, analyzing how technological change affects worker transitions.</description>
+    </item>
+  </channel>
+</rss>
