@@ -3,99 +3,101 @@ title: "Nikhil George"
 theme: PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
+publishDir: "docs"
 
 pagination:
-    pagerSize: 20
+  pagerSize: 20
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-        - name: Research
-          url: /research/
-          weight: 1
-        - name: Notes
-          url: /notes/
-          weight: 2
-        - name: About
-          url: /about/
-          weight: 3
+  main:
+    - name: Research
+      url: /research/
+      weight: 1
+    - name: Notes
+      url: /notes/
+      weight: 2
+    - name: About
+      url: /about/
+      weight: 3
 
 params:
-    description: "Nikhil George's academic research on technology, skills, and labor markets"
-    author: "Nikhil George"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["research", "notes"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
+  description: "Nikhil George's academic research on technology, skills, and labor markets"
+  author: "Nikhil George"
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: ["research", "notes"]
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
 
-    footer:
-        content: "© 2024 Nikhil George · Built using Hugo and PaperMod, inspired by Pascal Michaillat's academic template"
+  footer:
+    content: "© 2024 Nikhil George · Built using Hugo and PaperMod, inspired by Pascal Michaillat's academic template"
 
-    profileMode:
-        enabled: true
-        title: "Nikhil George"
-        subtitle: "PhD Candidate (ABD) in Information Systems at Carnegie Mellon University's Heinz College. I harness big data and AI models to explore how technological change reshapes labor markets, skills, and organizations. Through innovative measurement approaches, I study worker mobility, skill transitions, and organizational transformation in our evolving digital economy. I am on the academic job market - find my CV and contact information below."
-        imageUrl: "/nikhil-george-photo.png"
-        imageWidth: 160
-        imageHeight: 160
-        buttons:
-            - name: Research
-              url: /research/
-            - name: Notes
-              url: /notes/
-            - name: About
-              url: /about/
+  profileMode:
+    enabled: true
+    title: "Nikhil George"
+    subtitle: "PhD Candidate (ABD) in Information Systems at Carnegie Mellon University's Heinz College. I harness big data and AI models to explore how technological change reshapes labor markets, skills, and organizations. Through innovative measurement approaches, I study worker mobility, skill transitions, and organizational transformation in our evolving digital economy. I am on the academic job market - find my CV and contact information below."
+    imageUrl: "/nikhil-george-photo.png"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: Research
+        url: /research/
+      - name: Notes
+        url: /notes/
+      - name: About
+        url: /about/
 
-    socialIcons:
-        - name: cv
-          url: /nikhil-george-cv.pdf
-        - name: github
-          url: "https://github.com/nikhilgeorge2"
-        - name: google-scholar
-          url: "https://scholar.google.com/citations?user=13ecWosAAAAJ"
-        - name: twitter
-          url: "https://x.com/nikilgeorge"
-        - name: email
-          url: "mailto:ngeorge1@andrew.cmu.edu"
+  socialIcons:
+    - name: cv
+      url: /nikhil-george-cv.pdf
+    - name: github
+      url: "https://github.com/nikhilgeorge2"
+    - name: google-scholar
+      url: "https://scholar.google.com/citations?user=13ecWosAAAAJ"
+    - name: twitter
+      url: "https://x.com/nikilgeorge"
+    - name: email
+      url: "mailto:ngeorge1@andrew.cmu.edu"
 
-    assets:
-        disableScrollBarStyle: true
-        css: ["css/extended/academic.css"]
-        favicon: "/nikhil-george-photo.png"
-    
-    customFont:
-        enable: true
-        fontFamily: "EB Garamond"
-        fontLink: "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap"
+  assets:
+    disableScrollBarStyle: true
+    css: ["css/extended/academic.css"]
+    favicon: "/nikhil-george-photo.png"
+    katex: true
+
+  customFont:
+    enable: true
+    fontFamily: "EB Garamond"
+    fontLink: "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap"
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: xcode
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    guessSyntax: true
+    style: xcode
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
 
-titleCaseStyle: 'none'
+titleCaseStyle: "none"
