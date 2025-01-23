@@ -1,14 +1,15 @@
+
 <header class="header">
     <nav class="nav">
-        {{ if not .IsHome }}
-            <div class="logo">
-                <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-            </div>
-            <ul id="menu">
-                {{ range .Site.Menus.main }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
+      {{ if not .IsHome }}
+        <div class="logo">
+          <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        </div>
+      {{ end }}
+      <ul id="menu">
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
+      </ul>
     </nav>
-</header>
+  </header>
