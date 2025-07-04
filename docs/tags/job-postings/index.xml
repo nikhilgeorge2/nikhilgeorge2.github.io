@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Job Postings on Nikhil George</title><link>https://ngeorge.net/tags/job-postings/</link><description>Recent content in Job Postings on Nikhil George</description><generator>Hugo -- 0.140.2</generator><language>en</language><lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ngeorge.net/tags/job-postings/index.xml" rel="self" type="application/rss+xml"/><item><title>How Informative are Job Posting Skill Measures? Evidence from Selection Decisions</title><link>https://ngeorge.net/job-posting/</link><pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate><guid>https://ngeorge.net/job-posting/</guid><description>This paper provides the first empirical validation of job posting informativeness by predicting selection for internal jobs using skill distance measures.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Job Postings on Nikhil George</title>
+    <link>https://ngeorge.net/tags/job-postings/</link>
+    <description>Recent content in Job Postings on Nikhil George</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ngeorge.net/tags/job-postings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Posting to Prediction: Building Validated Workforce Analytics</title>
+      <link>https://ngeorge.net/job-posting/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://ngeorge.net/job-posting/</guid>
+      <description>This paper develops a methodology using internal job postings and large language models to measure and validate employee skill fit, demonstrating its predictive power in hiring decisions.</description>
+    </item>
+  </channel>
+</rss>

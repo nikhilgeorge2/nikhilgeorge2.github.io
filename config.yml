@@ -26,8 +26,8 @@ menu:
     - name: Notes
       url: /notes/
       weight: 2
-    - name: About
-      url: /about/
+    - name: Teaching
+      url: /teaching/
       weight: 3
 
 params:
@@ -55,12 +55,13 @@ params:
   math: true
 
   footer:
-    content: "© 2024 Nikhil George · Built with Hugo and Pascal Michaillat's Minimalist Academic Template"
+    content: "© 2025 Nikhil George· Built with Hugo and Pascal Michaillat's Minimalist Academic Template"
 
   profileMode:
     enabled: true
     title: "Nikhil George"
-    subtitle: "PhD Candidate (ABD) in Information Systems at Carnegie Mellon University's Heinz College. I harness big data and AI models to explore how technological change reshapes labor markets, skills, and organizations. Through innovative measurement approaches, I study worker mobility, skill transitions, and organizational transformation in our evolving digital economy. I am on the academic job market - find my CV and contact information below."
+    # <-- BIO IS UPDATED BELOW WITH LINE BREAKS
+    subtitle: "I study how technology reshapes work and talent flows. New technologies create fresh economic opportunities and transform how we perform established activities, generating complex forces that reshape how workers move and adapt. My work combines less explored datasets, advances in machine learning approaches, and economic theory to generate novel insights into these processes. This spans both understanding these transformations and developing the groundwork for how existing information can be leveraged to enhance these processes. In our post-foundation models world, I am also interested in AI strategies and helping prototype new ideas. I got my PhD in Information Systems from CMU.<br><br>Interests: LLMs and Embeddings, Applied Economic Theory, AI Applications"
     imageUrl: "/images/profile.webp"
     imageWidth: 200
     imageHeight: 200
@@ -69,8 +70,8 @@ params:
         url: /research/
       - name: Notes
         url: /notes/
-      - name: About
-        url: /about/
+      - name: Teaching
+        url: /teaching/
 
   socialIcons:
     - name: cv
@@ -82,7 +83,7 @@ params:
     - name: twitter
       url: "https://x.com/nikilgeorge"
     - name: email
-      url: "mailto:ngeorge1@andrew.cmu.edu"
+      url: "mailto:nikhilgeorgect@gmail.com"
 
   assets:
     disableScrollBarStyle: true

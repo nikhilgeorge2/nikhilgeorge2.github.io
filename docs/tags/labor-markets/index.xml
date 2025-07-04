@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Labor Markets on Nikhil George</title><link>https://ngeorge.net/tags/labor-markets/</link><description>Recent content in Labor Markets on Nikhil George</description><generator>Hugo -- 0.140.2</generator><language>en</language><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ngeorge.net/tags/labor-markets/index.xml" rel="self" type="application/rss+xml"/><item><title>Technology Change and Worker Transitions: Understanding Mobility through Occupational Skill Space</title><link>https://ngeorge.net/tech-mobility/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://ngeorge.net/tech-mobility/</guid><description>This paper introduces a novel approach to understanding worker mobility through occupation-specific skill embeddings, analyzing how technological change affects worker transitions.</description></item><item><title>How Informative are Job Posting Skill Measures? Evidence from Selection Decisions</title><link>https://ngeorge.net/job-posting/</link><pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate><guid>https://ngeorge.net/job-posting/</guid><description>This paper provides the first empirical validation of job posting informativeness by predicting selection for internal jobs using skill distance measures.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Labor Markets on Nikhil George</title>
+    <link>https://ngeorge.net/tags/labor-markets/</link>
+    <description>Recent content in Labor Markets on Nikhil George</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ngeorge.net/tags/labor-markets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technology Change and Worker Transitions: Understanding Mobility through Occupational Skill Space</title>
+      <link>https://ngeorge.net/tech-mobility/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ngeorge.net/tech-mobility/</guid>
+      <description>This paper introduces a novel approach to understanding worker mobility through occupation-specific skill embeddings, analyzing how technological change affects worker transitions.</description>
+    </item>
+  </channel>
+</rss>

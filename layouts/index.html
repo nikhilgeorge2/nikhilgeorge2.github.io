@@ -1,0 +1,70 @@
+{{- define "main" -}}
+
+{{- if .Site.Params.profileMode.enabled -}}
+<div class="profile">
+    {{- with .Site.Params.profileMode.imageUrl -}}
+    <div class="profile_inner">
+        {{- if $.Site.Params.profileMode.imageLink -}}
+        <a href="{{ $.Site.Params.profileMode.imageLink | absURL }}" alt="{{ $.Site.Params.profileMode.imageTitle | default "profile image" }}">
+            <img draggable="false" src="{{ . | absURL }}" alt="{{ $.Site.Params.profileMode.imageTitle | default "profile image" }}" title="{{ $.Site.Params.profileMode.imageTitle }}"
+                height="{{ $.Site.Params.profileMode.imageHeight | default 200 }}" width="{{ $.Site.Params.profileMode.imageWidth | default 200 }}" />
+        </a>
+        {{- else -}}
+        <img draggable="false" src="{{ . | absURL }}" alt="{{ $.Site.Params.profileMode.imageTitle | default "profile image" }}" title="{{ $.Site.Params.profileMode.imageTitle }}"
+            height="{{ $.Site.Params.profileMode.imageHeight | default 200 }}" width="{{ $.Site.Params.profileMode.imageWidth | default 200 }}" />
+        {{- end -}}
+        <h1>{{ $.Site.Params.profileMode.title | default $.Site.Title | markdownify }}</h1>
+        {{- with $.Site.Params.profileMode.subtitle -}}
+        <span>{{ . | safeHTML }}</span>
+        {{- end -}}
+
+        {{- partial "social_icons.html" (dict "socialIcons" $.Site.Params.socialIcons) -}} <!-- THIS IS THE FIX! -->
+
+        {{- with $.Site.Params.profileMode.buttons -}}
+        <div class="buttons">
+            {{- range . -}}
+            <a class="button" href="{{ .url | absURL }}" rel="noopener" title="{{ .name }}">
+                <span class="button-inner">
+                    {{ .name }}
+                    {{- if .indicator -}}
+                    <span class="indicator">{{ .indicator }}</span>
+                    {{- end -}}
+                </span>
+            </a>
+            {{- end -}}
+        </div>
+        {{- end -}}
+    </div>
+    {{- end -}}
+</div>
+
+{{- else -}}
+
+{{- if .Content -}}
+<div class="post-content">
+    {{- if .Site.Params.homeInfoParams.Source -}}
+    {{- with .Site.GetPage .Site.Params.homeInfoParams.Source -}}
+    {{ .Content }}
+    {{- end -}}
+    {{- else -}}
+    {{ .Content }}
+    {{- end -}}
+</div>
+{{- end -}}
+
+<div class="pagination">
+    {{- if .Paginator.HasPrev -}}
+    <a class="prev" href="{{ .Paginator.Prev.URL }}">
+        « {{ i18n "prev_page" }} 
+    </a>
+    {{- end -}}
+    {{- if .Paginator.HasNext -}}
+    <a class="next" href="{{ .Paginator.Next.URL }}">
+         {{ i18n "next_page" }} »
+    </a>
+    {{- end -}}
+</div>
+
+{{- end -}}
+
+{{- end }}{{/* end main */}}

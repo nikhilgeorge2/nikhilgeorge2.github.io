@@ -151,3 +151,8 @@
 .social-icons a:hover {
     color: var(--darkcolor);
 }
+
+/* Custom style to left-align the profile bio text */
+.profile .profile_inner span {
+    text-align: left;
+} 

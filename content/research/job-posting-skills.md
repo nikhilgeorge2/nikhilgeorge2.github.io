@@ -1,14 +1,14 @@
 ---
-title: "How Informative are Job Posting Skill Measures? Evidence from Selection Decisions"
+title: "From Posting to Prediction: Building Validated Workforce Analytics"
 date: 2024-11-05
-lastmod: 2025-01-05
+lastmod: 2025-06-21
 url: /job-posting/
 aliases:
     - /job-posting.html
-tags: ["People Analytics", "Machine Learning", "Skill Distance", "Job Postings", "Labor Markets"]
+tags: ["People Analytics", "Skill distance", "Job Postings", "Natural Language Processing", "Text Analysis", "Workforce Analytics", "LLM-Guided Representation Learning", "Internal Labor Markets", "Skill-Fit Measurement", "Supervised Contrastive Learning", "Employee Mobility", "Computational Social Science"]
 author: ["Nikhil George", "Ramayya Krishnan", "Rahul Telang"]
-description: "This paper provides the first empirical validation of job posting informativeness by predicting selection for internal jobs using skill distance measures."
-summary: "We demonstrate that job posting-derived skill distances strongly predict selection outcomes, with the probability of selection 84% higher for positions in the lowest quintile of skill distance."
+description: "This paper develops a methodology using internal job postings and large language models to measure and validate employee skill fit, demonstrating its predictive power in hiring decisions."
+summary: "We develop a methodology using internal job postings and large language models to measure employee skill fit. Critically, validating the skill-fit against 1,034 internal selection decisions, we find it robustly predicts hiring: applicants with higher skill fit are over twice as likely to be selected for the same role."
 cover:
     image: ""
     alt: ""
@@ -21,20 +21,20 @@ editPost:
 + [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906323)
 ---
 ##### Abstract
-Information embedded within job postings is increasingly central to modern labor markets, serving not only potential employees but also powering matching algorithms, screening tools, and broader workforce analytics. This growing reliance necessitates a thorough validation of skill and job requirement measures derived from job posting content. We provide the first empirical validation of this informativeness by predicting selection for internal jobs within a major firm using a novel measure of skill distance constructed solely from job postings. Our analysis reveals that job posting-derived skill distances strongly predict selection outcomes: the probability of selection is 84% higher when the sought job is in the lowest quintile of skill distance compared to a position in the highest quintile. Furthermore, in 70% of cases where multiple candidates applied, the selected candidate was the one with the shortest skill distance. Notably, these posting-derived skill measures consistently outperform traditional employee characteristics in explaining selection decisions. Building on this validation, we demonstrate how internal application intensity is significantly correlated with the average skill distance to emerging opportunities, yielding novel insights directly relevant to human capital management and scholarly inquiry on employee mobility in contemporary labor markets. Beyond validating the predictive power of job posting content for selection, our analysis unveils rich possibilities for future scholarly inquiry and the development of advanced analytics leveraging the readily available and informative skill content within job postings.
+Despite significant investments in HRIS systems, evidence of firms building validated analytics from this data remains scant. We develop a methodology using internal job postings to measure employee skill fit. Analyzing four years of data from a major financial services firm, we leverage large language models to evaluate 7,500 job pairs, supervising the learning of custom skill-fit measures from job posting text. Critically, validating the skill-fit against 1,034 internal selection decisions, we find it robustly predicts hiring: applicants with higher skill fit are over twice as likely to be selected for the same role, with predictive strength greater for less technical positions. This establishes job postings as a rich source for firm-specific skill intelligence. Building on these validated measures, we quantify each applicant’s internal "opportunity landscape". Our analysis shows that while applicants from across the opportunity spectrum apply to roles with low job-to-job skill alignment, those with severely limited access to well-aligned roles are more than twice as likely to do so. This pattern suggests such misaligned applications reflect both underlying skill gaps and broader frictions in the internal job market. Our work offers a replicable, LLM-enhanced methodology for firms to transform existing HR data into validated skill intelligence, enabling a data-driven foundation for strategic workforce development.
 
 ---
 ##### Citation
-George, Nikhil, Ramayya Krishnan, and Rahul Telang. 2024. "How Informative are Job Posting Skill Measures? Evidence from Selection Decisions." Working Paper.
+George, Nikhil, Ramayya Krishnan, and Rahul Telang. 2024. "From Posting to Prediction: Building Validated Workforce Analytics." Working Paper.
 
 ```bibtex
-@techreport{george2024informative,
+@techreport{george2024prediction,
     author = {George, Nikhil and Krishnan, Ramayya and Telang, Rahul},
-    title = {How Informative are Job Posting Skill Measures? Evidence from Selection Decisions},
+    title = {From Posting to Prediction: Building Validated Workforce Analytics},
     year = {2024},
     month = {nov},
     institution = {SSRN},
     type = {Working Paper},
     url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906323},
-    note = {Last revised: January 5, 2025}
-}
+    note = {Last revised: June 21, 2025}
+} 
