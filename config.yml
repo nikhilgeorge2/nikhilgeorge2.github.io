@@ -1,23 +1,17 @@
 baseURL: "https://ngeorge.net"
 title: "Nikhil George"
 theme: PaperMod
-
 # URL settings (Correct placement)
 uglyURLs: false
 canonifyURLs: true
 relativeURLs: false
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 publishDir: "docs"
-
 pagination:
   pagerSize: 20
-
 taxonomies:
   tag: tags
-
-
 menu:
   main:
     - name: Research
@@ -29,9 +23,8 @@ menu:
     - name: Teaching
       url: /teaching/
       weight: 3
-
 params:
-  description: "Nikhil George's academic research on technology, skills, and labor markets"
+  description: "Nikhil George's academic research on technology, work, and attention markets"
   author: "Nikhil George"
   DateFormat: "January 2006"
   defaultTheme: light
@@ -53,15 +46,13 @@ params:
   UseHugoToc: true
   comments: false
   math: true
-
   footer:
     content: "© 2025 Nikhil George· Built with Hugo and Pascal Michaillat's Minimalist Academic Template"
-
   profileMode:
     enabled: true
     title: "Nikhil George"
     # <-- BIO IS UPDATED BELOW WITH LINE BREAKS
-    subtitle: "I study how technology reshapes work and talent flows. New technologies create fresh economic opportunities and transform how we perform established activities, generating complex forces that reshape how workers move and adapt. My work combines less explored datasets, advances in machine learning approaches, and economic theory to generate novel insights into these processes. This spans both understanding these transformations and developing the groundwork for how existing information can be leveraged to enhance these processes. In our post-foundation models world, I am also interested in AI strategies and helping prototype new ideas. I got my PhD in Information Systems from CMU.<br><br>Interests: LLMs and Embeddings, Applied Economic Theory, AI Applications"
+    subtitle: "I study how technology transforms work, talent allocation, and attention markets. My research develops novel measurement approaches using machine learning to understand how workers adapt to technological change and how digital platforms design offerings around viewer preferences and attention.<br><br>Recent work creates methods for measuring occupational skill change from job posting text and examines how different types of technological shocks create distinct worker mobility patterns. I'm also interested in how streaming platforms bundle content with advertising models, and the emerging opportunities in AI-enabled environments.<br><br>Beyond understanding these phenomena, I develop frameworks for organizations to leverage existing data for improved talent management and strategic decision-making. As AI capabilities advance, I'm particularly focused on applications that enhance organizational intelligence and decision-making processes.<br><br>PhD in Information Systems, Carnegie Mellon University.<br><br>Research interests: LLMs and Embeddings, Applied Economic Theory, AI Applications"
     imageUrl: "/images/profile.webp"
     imageWidth: 200
     imageHeight: 200
@@ -72,7 +63,6 @@ params:
         url: /notes/
       - name: Teaching
         url: /teaching/
-
   socialIcons:
     - name: cv
       url: "/cv/nikhil-george-cv.pdf"
@@ -84,18 +74,15 @@ params:
       url: "https://x.com/nikilgeorge"
     - name: email
       url: "mailto:nikhilgeorgect@gmail.com"
-
-  assets:
-    disableScrollBarStyle: true
-    css: ["css/extended/academic.css"]
-    favicon: "/images/favicon.png"
-    katex: true
-
+assets:
+  disableScrollBarStyle: true
+  css: ["css/extended/academic.css"]
+  favicon: "/images/favicon.png"
+  katex: true
   customFont:
     enable: true
     fontFamily: "EB Garamond"
     fontLink: "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap"
-
 markup:
   goldmark:
     renderer:
@@ -107,5 +94,4 @@ markup:
     endLevel: 2
     ordered: false
     startLevel: 2
-
-titleCaseStyle: "none"
+    titleCaseStyle: "none"

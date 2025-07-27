@@ -1,40 +1,38 @@
 ---
 title: "From Posting to Prediction: Building Validated Workforce Analytics"
-date: 2024-11-05
+date: 2025-06-01
 lastmod: 2025-06-21
 url: /job-posting/
 aliases:
-    - /job-posting.html
+ - /job-posting.html
 tags: ["People Analytics", "Skill distance", "Job Postings", "Natural Language Processing", "Text Analysis", "Workforce Analytics", "LLM-Guided Representation Learning", "Internal Labor Markets", "Skill-Fit Measurement", "Supervised Contrastive Learning", "Employee Mobility", "Computational Social Science"]
 author: ["Nikhil George", "Ramayya Krishnan", "Rahul Telang"]
 description: "This paper develops a methodology using internal job postings and large language models to measure and validate employee skill fit, demonstrating its predictive power in hiring decisions."
 summary: "We develop a methodology using internal job postings and large language models to measure employee skill fit. Critically, validating the skill-fit against 1,034 internal selection decisions, we find it robustly predicts hiring: applicants with higher skill fit are over twice as likely to be selected for the same role."
 cover:
-    image: ""
-    alt: ""
-    relative: false
+image: ""
+alt: ""
+relative: false
 editPost:
-    URL: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906323"
-    Text: "SSRN Working Paper"
+URL: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906323"
+Text: "SSRN Working Paper"
 ---
 ---
 + [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906323)
 ---
-##### Abstract
-Despite significant investments in HRIS systems, evidence of firms building validated analytics from this data remains scant. We develop a methodology using internal job postings to measure employee skill fit. Analyzing four years of data from a major financial services firm, we leverage large language models to evaluate 7,500 job pairs, supervising the learning of custom skill-fit measures from job posting text. Critically, validating the skill-fit against 1,034 internal selection decisions, we find it robustly predicts hiring: applicants with higher skill fit are over twice as likely to be selected for the same role, with predictive strength greater for less technical positions. This establishes job postings as a rich source for firm-specific skill intelligence. Building on these validated measures, we quantify each applicant’s internal "opportunity landscape". Our analysis shows that while applicants from across the opportunity spectrum apply to roles with low job-to-job skill alignment, those with severely limited access to well-aligned roles are more than twice as likely to do so. This pattern suggests such misaligned applications reflect both underlying skill gaps and broader frictions in the internal job market. Our work offers a replicable, LLM-enhanced methodology for firms to transform existing HR data into validated skill intelligence, enabling a data-driven foundation for strategic workforce development.
-
+**##### Abstract**
+Despite widespread adoption of Human Capital Management (HCM) systems, organizations struggle to extract systematic workforce intelligence from their accumulated HR data. Using rich contextual information derived from four years of HCM data from a leading financial services firm and textual data in job postings, we systematically measure how well employees' current skills match the requirements of new job openings. These skill-fit scores are validated using actual hiring decisions from 1,034 internal applications. The measure robustly predicts hiring success: applicants with one standard deviation higher skill fit are 2.25 times more likely to be selected when competing for identical positions. This demonstrates that job postings and HCM data contain rich, decision-relevant skill signals previously untapped by organizations. These validated skill-fit measures also reveal important workforce patterns – a) 14.8% of employees face limited skill-aligned opportunities, and b) 54.9% of unsuccessful job applicants are overlooking suitable alternatives. Our empirical approach provides a replicable framework for developing validated skill-fit measures from readily available HCM data without additional data collection or validation effort, creating a foundation for deeper workforce analytics.
 ---
-##### Citation
-George, Nikhil, Ramayya Krishnan, and Rahul Telang. 2024. "From Posting to Prediction: Building Validated Workforce Analytics." Working Paper.
-
+**##### Citation**
+George, Nikhil, Ramayya Krishnan, and Rahul Telang. 2025. "From Posting to Prediction: Building Validated Workforce Analytics." Working Paper.
 ```bibtex
-@techreport{george2024prediction,
-    author = {George, Nikhil and Krishnan, Ramayya and Telang, Rahul},
-    title = {From Posting to Prediction: Building Validated Workforce Analytics},
-    year = {2024},
-    month = {nov},
-    institution = {SSRN},
-    type = {Working Paper},
-    url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906323},
-    note = {Last revised: June 21, 2025}
-} 
+@techreport{george2025prediction,
+author = {George, Nikhil and Krishnan, Ramayya and Telang, Rahul},
+title = {From Posting to Prediction: Building Validated Workforce Analytics},
+year = {2025},
+month = {jun},
+institution = {SSRN},
+type = {Working Paper},
+url = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906323},
+note = {Last revised: June 21, 2025}
+}
