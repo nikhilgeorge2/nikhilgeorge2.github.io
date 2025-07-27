@@ -2,33 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ngeorge.net/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/tags/labor-markets/</loc>
-    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/tags/occupational-mobility/</loc>
-    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/research/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/tags/skill-embeddings/</loc>
-    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/tags/skill-structures/</loc>
-    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/tags/</loc>
-    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/tags/technological-change/</loc>
-    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ngeorge.net/tech-mobility/</loc>
-    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ngeorge.net/tags/computational-social-science/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -50,7 +23,13 @@
     <loc>https://ngeorge.net/tags/natural-language-processing/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ngeorge.net/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ngeorge.net/tags/people-analytics/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ngeorge.net/research/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ngeorge.net/tags/skill-distance/</loc>
@@ -62,11 +41,32 @@
     <loc>https://ngeorge.net/tags/supervised-contrastive-learning/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ngeorge.net/tags/</loc>
+    <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ngeorge.net/tags/text-analysis/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ngeorge.net/tags/workforce-analytics/</loc>
     <lastmod>2025-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ngeorge.net/tags/labor-markets/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ngeorge.net/tags/occupational-mobility/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ngeorge.net/tags/skill-embeddings/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ngeorge.net/tags/skill-structures/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ngeorge.net/tags/technological-change/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ngeorge.net/tech-mobility/</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ngeorge.net/tags/consumer-behavior/</loc>
     <lastmod>2021-03-11T00:00:00+00:00</lastmod>
