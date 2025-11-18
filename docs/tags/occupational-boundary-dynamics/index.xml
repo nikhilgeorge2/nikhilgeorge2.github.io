@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Occupational Boundary Dynamics on Nikhil George</title>
+    <link>https://ngeorge.net/tags/occupational-boundary-dynamics/</link>
+    <description>Recent content in Occupational Boundary Dynamics on Nikhil George</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ngeorge.net/tags/occupational-boundary-dynamics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technology and the Shifting Architecture of Occupational Skills</title>
+      <link>https://ngeorge.net/skill-transformation/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://ngeorge.net/skill-transformation/</guid>
+      <description>This paper develops a measurement framework to understand how technological transformation reshaped U.S. skill demands across 514 occupations, revealing three distinct adaptation mechanisms that determine worker outcomes.</description>
+    </item>
+  </channel>
+</rss>
